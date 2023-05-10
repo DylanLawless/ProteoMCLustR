@@ -20,9 +20,9 @@ $\textbf{Input:}$
 * $e, r: \text{Expansion and inflation parameters for MCL algorithm}$
 
 $\textbf{Algorithm:}$
-- [1] Preprocess ![Equation](https://img.shields.io/badge/Equation-%24%24(N_i%2C%20E_%7Bij%7D%2C%20S)%20%5Crightarrow%20(N'%5Ci%2C%20E'%7Bij%7D)%24%24-blue)
 
-- [1] Preprocess $$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$$
+- [1] Preprocess 
+* $$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$$
 - [2] ChooseInflation $$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$$
 - [3] RunMCL $$(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$$
 - [3.1] Initialize $$ M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$$
