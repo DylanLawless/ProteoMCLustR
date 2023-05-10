@@ -4,7 +4,7 @@
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
-![Alt Text](./images/logo_v1.png)
+![Alt Text](./images/logo_v1.jpg)
 
 A tool for clustering and analyzing protein-protein interactions using the MCL algorithm.
 
