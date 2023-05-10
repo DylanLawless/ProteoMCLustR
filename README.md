@@ -20,8 +20,8 @@ $\textbf{Input:}$
 * $e, r: \text{Expansion and inflation parameters for MCL algorithm}$
 
 $\textbf{Algorithm:}$
-
-- [1] Preprocess 
+* [1] Preprocess 
+* $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
 * $$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$$
 - [2] ChooseInflation $$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$$
 - [3] RunMCL $$(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$$
