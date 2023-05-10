@@ -4,7 +4,7 @@ Version: 0.1.0
 Authors@R: 
     person("Dylan", "Lawless", , "fist.lawless@epfl.ch", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A set of tools for clustering and analyzing protein-protein interactions using the MCL algorithm.
+Description: A tool for clustering and analyzing protein-protein interactions using the MCL algorithm.
 License: CC BY-NC-ND 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
