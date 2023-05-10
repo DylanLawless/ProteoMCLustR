@@ -20,14 +20,14 @@ $\textbf{Input:}$
 * $e, r: \text{Expansion and inflation parameters for MCL algorithm}$
 
 $\textbf{Algorithm:}$
-* $\text{1. Preprocess }(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
-* $\text{2. ChooseInflation }(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$
-* $\text{3. RunMCL }(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$
-* $\text{3.1. Initialize } M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
-* $\text{3.2. Iterate until convergence:}$
-* $\text{3.2.1. Expansion } M^{(k)} = (M^{(k-1)})^e$
-* $\text{3.2.2. Inflation } M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
-* $\text{3.3. Extract clusters from converged matrix } M^{(final)}$
+* [1] Preprocess $(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
+* [2] ChooseInflation $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$
+* [3] RunMCL $(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$
+* [3.1] Initialize $ M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
+* [3.2] Iterate until convergence:
+* [3.2.1] Expansion $ M^{(k)} = (M^{(k-1)})^e$
+* [3.2.2] Inflation $ M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
+* [3.3] Extract clusters from converged matrix $ M^{(final)}$
 
 $\textbf{Output:}$
 * $\text{Clusters: Set of optimized node (gene) clusters}$
