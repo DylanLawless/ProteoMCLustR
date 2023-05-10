@@ -26,14 +26,10 @@ $(N_i, E_{ij}, S) \rightarrow (N^\prime_i, E^\prime_{ij})$
 2. ChooseInflation: 
 $(N^\prime_i, E^\prime_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
 
-
 3. RunMCL: 
 $(N^\prime_i, E^\prime_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
 
 3.1. Initialize: 
-
-$$M^{(0)}_{ij} = \frac{ E^\prime_{ij} }{\sum_{k=1}^{n} E^\prime_{ik} }$$
-
 $M^{(0)}_{ij} =$
 
 $\frac{ E^\prime_{ij} }{\sum_{k=1}^{n} E^\prime_{ik} }$
@@ -44,7 +40,9 @@ $\frac{ E^\prime_{ij} }{\sum_{k=1}^{n} E^\prime_{ik} }$
 $M^{(k)} = (M^{(k-1)})^e$
 
 3.2.2. Inflation: 
-$M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
+$M^{(k)}_{ij} =$
+
+$ \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
 
 3.3. Extract clusters from converged matrix: 
 $M^{(final)}$
