@@ -1,7 +1,7 @@
 ## Description
 
 **__ProteoMCLustR__**
-$\text{test} (N_i, E_{ij}, S \to N'_i, E'_{ij})$
+$\text{(} N_i, E_{ij}, S \to N'_i, E'_{ij} \text{)}$
 
 $\text{A test} x + y$
 
