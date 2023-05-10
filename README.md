@@ -30,7 +30,7 @@ $N_i, E_{ij}, (S) $.
 
 $N_i, E_{ij}, S$ goes to $N`_i, E^{\prime}_{ij}$.
 
-$N_i, E_{ij}, S$ goes to $N_i, E^{\prime}_{ij}$.
+$N_i, E_{ij}, S$ goes to $N^{\prime}_{i}, E^{\prime}_{ij}$.
 
 
 2. ChooseInflation: 
