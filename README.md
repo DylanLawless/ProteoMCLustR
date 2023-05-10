@@ -2,7 +2,7 @@
 
 **__ProteoMCLustR__**
 
-**__P__**roteome clustering with **__MCL__** algoritm in **__R__**.
+***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
 A tool for clustering and analyzing protein-protein interactions using the MCL algorithm.
 
