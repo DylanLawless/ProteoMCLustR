@@ -22,7 +22,7 @@ $\textbf{Input:}$
 $\textbf{Algorithm:}$
 * [1] Preprocess 
 * $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
-* $$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$$
+* $N_i, E_{ij}, S \rightarrow N'_i, E'_{ij}$
 - [2] ChooseInflation $$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$$
 - [3] RunMCL $$(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$$
 - [3.1] Initialize $$ M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$$
