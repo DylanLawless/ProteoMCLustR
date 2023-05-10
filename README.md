@@ -3,6 +3,8 @@
 **__ProteoMCLustR__**
 $\text{(N_i, E_{ij}, S \to N'_i, E'_{ij})}$
 
+$\text{A test} x + y$
+
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
 A tool for clustering and analyzing protein-protein interactions using the MCL algorithm.
