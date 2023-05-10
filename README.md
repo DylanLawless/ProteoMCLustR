@@ -42,7 +42,7 @@ $M^{(k)} = (M^{(k-1)})^e$
 3.2.2. Inflation: 
 $M^{(k)}_{ij} =$
 
-$ \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
+$\frac{ (M^{(k-1)}_{ij})^r }{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r }$
 
 3.3. Extract clusters from converged matrix: 
 $M^{(final)}$
