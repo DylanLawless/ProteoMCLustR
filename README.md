@@ -21,16 +21,7 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 1. Preprocess:
-$N_i$.
-
-$N_i, E_{ij}$.
-
-$N_i, E_{ij}, S $.
-$N_i, E_{ij}, (S) $.
-
-$N_i, E_{ij}, S$ goes to $N`_i, E^{\prime}_{ij}$.
-
-$N_i, E_{ij}, S$ goes to $N^{\prime}_{i}, E^{\prime}_{ij}$.
+$N_i, E_{ij}, S$ goes to $N^{\prime}_{i}$, $E^{\prime}_{ij}$.
 
 
 2. ChooseInflation: 
