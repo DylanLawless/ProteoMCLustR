@@ -1,18 +1,6 @@
 ## Description
 
 **__ProteoMCLustR__**
-$\text{} N_i, E_{ij}, S \to N'_i, E'_{ij} \text{}$
-
-
-$\text{Process} N_i, E_{ij}, S \to N'_i, E'_{ij}$
-$\text{A test} x + y N_{i}$
-$\text{A test} x + y N_i$
-$\text{A test} x + y N'$
-$\text{A test } (x + y N')$
-$\text{A test } (x + y N') \to$
-$\text{A test } (x + y N') \to N'_i$
-
-$\text{1 Preprocess}$ and $N_i$ , $N_i, N_j$ , $N_ij$ to $S$ $ N'_i, E'_{ij}$
 
 $\text{test} (N_i, E_{ij}, S) \to (N'_i, E'_{ij})$
 
