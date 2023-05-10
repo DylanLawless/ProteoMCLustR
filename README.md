@@ -3,10 +3,12 @@
 **__ProteoMCLustR__**
 $\text{(} N_i, E_{ij}, S \to N'_i, E'_{ij} \text{)}$
 
+
 $\text{A test} x + y N$
 $\text{A test} x + y N_{i}$
 $\text{A test} x + y N_i$
 $\text{A test} x + y N'$
+$\text{A test } (x + y N')$
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
