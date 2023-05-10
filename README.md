@@ -31,7 +31,7 @@ $(N^\prime_i, E^\prime_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
 $(N^\prime_i, E^\prime_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
 
 3.1. Initialize: 
-$M^{(0)}_{ij} = \frac{E^\prime{}_{ij}}{\sum_{k=1}^{n} E^\prime{}_{ik}}$
+$M^{(0)}_{ij} = \frac{{E}^\prime_{ij}}{\sum_{k=1}^{n} {E}^\prime_{ik}}$
 
 3.2. Iterate until convergence:
 
