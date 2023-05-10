@@ -12,7 +12,7 @@ $\text{A test } (x + y N')$
 $\text{A test } (x + y N') \to$
 $\text{A test } (x + y N') \to N'_i$
 
-$\text{1 Preprocess}$ and $N_i$ , $N_i$ , $N_ij$ to $S$ $ N'_i, E'_{ij}$
+$\text{1 Preprocess}$ and $N_i$ , $N_i, N_j$ , $N_ij$ to $S$ $ N'_i, E'_{ij}$
 
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
@@ -34,6 +34,7 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 1. Preprocess:
+$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
