@@ -21,7 +21,7 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 * [1] Preprocess 
-* $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
+* $N_i, E_{ij}, S \right) i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
 * $\left(N_i, E_{ij}, S\right) \rightarrow \left(N'_i, E'_{ij}\right) \text{.}$
 * $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
 - [2] ChooseInflation $$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$$
