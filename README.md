@@ -31,8 +31,9 @@ $N_i$.
 $N_i, E_{ij}$.
 
 $N_i, E_{ij}, S $.
+$N_i, E_{ij}, (S) $.
 
-$N_i, E_{ij}, S \to N'_i, E'_{ij}$.
+$N_i, E_{ij}, S \rightarrow N'_i, E'_{ij}$.
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
