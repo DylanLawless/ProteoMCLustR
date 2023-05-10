@@ -12,7 +12,7 @@ $\text{A test } (x + y N')$
 $\text{A test } (x + y N') \to$
 $\text{A test } (x + y N') \to N'_i$
 
-$\text{[1] Preprocess}(N_i, E_{ij}, S) \to (N'_i, E'_{ij})$
+$\text{1 Preprocess} (N_i, E_{ij}, S) \to (N'_i, E'_{ij})$
 
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
