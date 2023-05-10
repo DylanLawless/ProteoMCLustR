@@ -28,9 +28,9 @@ $N_i, E_{ij}$.
 $N_i, E_{ij}, S $.
 $N_i, E_{ij}, (S) $.
 
-$N_i, E_{ij}, S$ goes to $N'_i, E'_{ij}$.
+$N_i, E_{ij}, S$ goes to $N`_i, E^{\prime}_{ij}$.
+$N_i, E_{ij}, S$ goes to $N_i, E^{\prime}_{ij}$.
 
-$N_i, E_{ij}, S$ goes to $ \rightarrow N_i, E_{ij}$.
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
