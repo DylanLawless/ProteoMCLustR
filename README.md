@@ -2,11 +2,6 @@
 
 **__ProteoMCLustR__**
 
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
-
-($N_i, E_{ij}, S$) --> ($N_i, E_{ij}$).
-
-
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
 A tool for clustering and analyzing protein-protein interactions using the MCL algorithm.
@@ -33,7 +28,7 @@ $N_i, E_{ij}$.
 $N_i, E_{ij}, S $.
 $N_i, E_{ij}, (S) $.
 
-$N_i, E_{ij}, S \text{->} N'_i, E'_{ij}$.
+$N_i, E_{ij}, S -> N'_i, E'_{ij}$.
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
