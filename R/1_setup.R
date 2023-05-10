@@ -1,0 +1,6 @@
+library(STRINGdb)
+library(parallel)
+library(dplyr)
+library(ggplot2)
+library(expm)
+library(GeneTonic)

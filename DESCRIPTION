@@ -1,0 +1,24 @@
+Package: ProteoMCLustR
+Title: Protein-Protein Interaction Clustering with MCL
+Version: 0.1.0
+Authors@R: 
+    person("Dylan", "Lawless", , "fist.lawless@epfl.ch", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A set of tools for clustering and analyzing protein-protein interactions using the MCL algorithm.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+/* License: GPL-3 */
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr,
+    STRINGdb,
+    igraph,
+    parallel
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
