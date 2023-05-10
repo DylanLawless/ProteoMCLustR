@@ -24,14 +24,14 @@ $\textbf{Algorithm:}$
 $(N_i, E_{ij}, S) \rightarrow (N^\prime_i, E^\prime_{ij})$
 
 2. ChooseInflation: 
-$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
+$(N^\prime_i, E^\prime_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
 
 
 3. RunMCL: 
-$(N'_i, E'_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
+$(N^\prime_i, E^\prime_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
 
 3.1. Initialize: 
-$M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
+$M^{(0)}_{ij} = \frac{E^\prime_{ij}}{\sum_{k=1}^{n} E^\prime_{ik}}$
 
 3.2. Iterate until convergence:
 
