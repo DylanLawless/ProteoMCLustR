@@ -9,7 +9,7 @@ A tool for clustering and analyzing protein-protein interactions using the MCL a
 ![Alt Text](./images/mcl_skat.png)
 Figure 1. Workflow illustration.
 
-Th algorithmic description is as follows:
+Th algorithmic description is as follows (not GitHub mathjax has trouble rendering some LaTex):
 
 $\textbf{Input:}$
 * $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
