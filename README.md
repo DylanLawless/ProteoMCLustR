@@ -2,6 +2,8 @@
 
 **__ProteoMCLustR__**
 
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
 $\text{ (N_i, E_{ij}, S) \to (N'_i, E'_{ij})}$
 
 
