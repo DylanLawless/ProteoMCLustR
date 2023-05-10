@@ -20,17 +20,15 @@ $\textbf{Input:}$
 * $e, r: \text{Expansion and inflation parameters for MCL algorithm}$
 
 $\textbf{Algorithm:}$
-1. Preprocess: $$
-(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})
-$$
+1. Preprocess:
+$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
 
 
 3. RunMCL: 
-$$(N'_i, E'_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
-
+$(N'_i, E'_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
 
 3.1. Initialize: 
 $M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
@@ -46,9 +44,8 @@ $M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
 3.3. Extract clusters from converged matrix: 
 $M^{(final)}$
 
-
 $\textbf{Output:}$
-* $\text{Clusters: Set of optimized node (gene) clusters}$
+$\text{Clusters: Set of optimized node (gene) clusters}$
 
 where  $k$ is the index variable used in the iterative steps of the MCL algorithm, representing the iteration number.
 Node indices in the graph are represented by $i$, $j$. In the context of the adjacency matrix or the stochastic matrix, $i$ represents the row index and $j$ represents the column index.
