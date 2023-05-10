@@ -21,17 +21,17 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 1. Preprocess:
-$(N_i, E_{ij}, S) \rightarrow (N`_i, E`_{ij})$
+$(N_i, E_{ij}, S) \rightarrow (N_i, E_{ij})$
 
 2. ChooseInflation: 
-$(N`_i, E`_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
+$(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
 
 
 3. RunMCL: 
-$(N`_i, E`_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
+$(N'_i, E'_{ij}, I, L_{min}, L_{max}, \text{inflation}, e, r)$
 
 3.1. Initialize: 
-$M^{(0)}_{ij} = \frac{E`_{ij}}{\sum_{k=1}^{n} E`_{ik}}$
+$M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
 
 3.2. Iterate until convergence:
 
