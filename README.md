@@ -1,7 +1,7 @@
 ## Description
 
 **__ProteoMCLustR__**
-$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
+$\left(N_i, E_{ij}, S\right) \to \left(N'_i, E'_{ij}\right)$
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
