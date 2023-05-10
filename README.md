@@ -21,7 +21,7 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 1. Preprocess:
-$(N_i, E_{ij}, S) \rightarrow (N_i, E_{ij})$
+$(N_i, E_{ij}, S) \rightarrow (N^{,}_i, E_{ij})$
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
