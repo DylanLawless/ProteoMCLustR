@@ -11,26 +11,26 @@ Figure 1. Workflow illustration.
 
 Th algorithmic description is as follows:
 
-\textbf{Input:} \\
-$N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$\\
-$E_{ij}, \ i, j = 1, \dots, n: \text{Edges (interactions) between nodes in STRING database}$\\
-$S: \text{Score threshold for edges}$\\
-$I: \text{Iteration limit}$\\
-$L_{min}, L_{max}: \text{Size limits for clusters}$\\
-$e, r: \text{Expansion and inflation parameters for MCL algorithm}$\\
+$\textbf{Input:}$
+* $N_i, \ i = 1, \dots, n: \text{Nodes (genes) in the STRING database}$
+* $E_{ij}, \ i, j = 1, \dots, n: \text{Edges (interactions) between nodes in STRING database}$
+* $S: \text{Score threshold for edges}$
+* $I: \text{Iteration limit}$
+* $L_{min}, L_{max}: \text{Size limits for clusters}$
+* $e, r: \text{Expansion and inflation parameters for MCL algorithm}$
 
-\textbf{Algorithm:}\\
-$\text{1. Preprocess }(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$\\
-$\text{2. ChooseInflation }(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$\\
-$\text{3. RunMCL }(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$\\
-$\text{3.1. Initialize } M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$\\
-$\text{3.2. Iterate until convergence:}$\\
-$\text{3.2.1. Expansion } M^{(k)} = (M^{(k-1)})^e$\\
-$\text{3.2.2. Inflation } M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$\\
-$\text{3.3. Extract clusters from converged matrix } M^{(final)}$\\
+$\textbf{Algorithm:}$
+* $\text{1. Preprocess }(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
+* $\text{2. ChooseInflation }(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow inflation$
+* $\text{3. RunMCL }(N'_i, E'_{ij}, I, L_{min}, L_{max}, inflation, e, r)$
+* $\text{3.1. Initialize } M^{(0)}_{ij} = \frac{E'_{ij}}{\sum_{k=1}^{n} E'_{ik}}$
+* $\text{3.2. Iterate until convergence:}$
+* $\text{3.2.1. Expansion } M^{(k)} = (M^{(k-1)})^e$
+* $\text{3.2.2. Inflation } M^{(k)}_{ij} = \frac{(M^{(k-1)}_{ij})^r}{\sum_{k=1}^{n} (M^{(k-1)}_{ik})^r}$
+* $\text{3.3. Extract clusters from converged matrix } M^{(final)}$
 
-\textbf{Output:} \\
-$\text{Clusters: Set of optimized node (gene) clusters}$
+$\textbf{Output:}$
+* $\text{Clusters: Set of optimized node (gene) clusters}$
 
 where  $k$ is the index variable used in the iterative steps of the MCL algorithm, representing the iteration number.
 Node indices in the graph are represented by $i$, $j$. In the context of the adjacency matrix or the stochastic matrix, $i$ represents the row index and $j$ represents the column index.
