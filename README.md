@@ -1,6 +1,7 @@
 ## Description
 
 **__ProteoMCLustR__**
+$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
 
 ***P***roteome clustering with ***MCL*** algoritm in ***R***.
 
@@ -21,7 +22,6 @@ $\textbf{Input:}$
 
 $\textbf{Algorithm:}$
 1. Preprocess:
-$(N_i, E_{ij}, S) \rightarrow (N'_i, E'_{ij})$
 
 2. ChooseInflation: 
 $(N'_i, E'_{ij}, L_{min}, L_{max}) \rightarrow \text{inflation}$
