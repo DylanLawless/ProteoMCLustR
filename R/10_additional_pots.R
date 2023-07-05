@@ -35,7 +35,7 @@ grouped_df <- grouped_df %>%
 p3 <- grouped_df %>%
   ggplot(aes(x = ID, y = count, fill = factor(confidence_score))) +
   geom_bar(stat = "identity") +
-  facet_wrap(~ confidence_score) +
+  facet_grid(confidence_score ~ .) +
   xlab("MCL sort ID") +
   ylab("Gene count") +
   scale_fill_manual(values = c("#ee5d6c", "#eeaf61", "#6a0d83"), name = "Confidence\nscore", 
@@ -58,9 +58,11 @@ p3_line <- grouped_df %>%
 
 p3_line
 
+# panel ----
+library(patchwork)
+# plot1 + (plot2 + plot3) + plot_layout(ncol = 1)
+patch1 <- (p3 | p3_line) + plot_annotation(tag_levels = 'A')
+patch1
 
-ggsave(paste0("../data/ppi_user_ouput/ppi_line_unranked_", file_suffix, ".pdf"), plot = p3)
-
-ggsave(paste0("../data/ppi_user_ouput/ppi_line_rank_", file_suffix, ".pdf"), plot = p3_line)
-
+ggsave(paste("../data/ppi_user_ouput/ppi_line_", file_suffix, ".pdf", sep = "") , plot = patch1, width = 8, height = 3 )
 

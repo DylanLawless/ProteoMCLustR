@@ -15,8 +15,8 @@ GetSubNetwork <- function(string_db, STRING_IDs) {
 #' @export
 ChooseInflation <-
   function(cur_subnetwork,
-           #mcl_inflation_param = c(1.5, 2, 2.5, 5, 10, 15, 20),
-           mcl_inflation_param = c(1.5),
+           mcl_inflation_param = c(1.5, 2, 2.5, 5, 10, 15, 20),
+           # mcl_inflation_param = c(1.5),
            size_limits = c(5, 50)
   ) {
     GetNumClustersWithinSize <- function(string_obj) {
